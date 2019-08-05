@@ -1,0 +1,15 @@
+header{
+    background-color: #ff751a !important;
+    color: #004d99;
+}
+
+body{
+    background-color: #f2f2f2;
+    color: #ff751a !important;
+}
+
+.awesome_message{
+    font-size: 30px;
+    /* text-align: justify; */
+    margin-bottom: 80px;
+}

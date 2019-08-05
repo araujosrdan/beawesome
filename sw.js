@@ -6,12 +6,15 @@ self.addEventListener('install', function(event){
         cache.addAll([
           '.',
           'index.html',
+          'js/jquery-3.4.1.min.js',
+          'bootstrap-4.3.1/js/bootstrap.min.js',
           'js/main.js',
           'img/96x96.png',
           'img/144x144.png',
           'img/256x256.png',
           'img/512x512.png',
-          'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'
+          'bootstrap-4.3.1/css/bootstrap.min.css',
+          'main.css'
         ]);
       })
   );
