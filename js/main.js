@@ -38,9 +38,10 @@ var awesome_message_share = document.getElementById('awesome_message_share');
 awesome_message_share.addEventListener('click', event => {
     if (navigator.share) {
       navigator.share({
-        awesome_message_text
+        title: 'Be awesome messages!',
+        text: awesome_message_text
       }).then(() => {
-        alert(awesome_message_text);
+        alert('Compartilhado com sucesso!');
       })
       .catch(console.error);
     } else {
